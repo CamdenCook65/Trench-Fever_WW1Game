@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a0cf37e99fcb584dbdf7be0944f8cbf, type: 3}
+  m_Name: STR_Shoot
+  m_EditorClassIdentifier: 
+  animName: Shoot
+  animType: 1
+  animMode: 0
+  speed: 1
+  frameList:
+  - sprites:
+    - {fileID: 21300000, guid: 21fea805fcb5355469be0b55f17a1fe4, type: 3}
+    - {fileID: 21300000, guid: 60155d4db31e2d34a96b5bf94f533df7, type: 3}
+    - {fileID: 21300000, guid: 6dbb4b3d760333c47b92cc031044d45c, type: 3}
+    - {fileID: 21300000, guid: 83627e48cf11ce144b10169565f9cc87, type: 3}
+    - {fileID: 21300000, guid: c43aac043ca8cc1468389ffbfc9b1633, type: 3}
+    - {fileID: 21300000, guid: 895fb958a0468834092b330a7915e536, type: 3}
+    - {fileID: 21300000, guid: 3f53c6ce39c9d8a4baf4409f04f1b4aa, type: 3}
+    - {fileID: 21300000, guid: 6dc68ecee558fce45855079d48e346b2, type: 3}

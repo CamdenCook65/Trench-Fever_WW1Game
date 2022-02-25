@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a0cf37e99fcb584dbdf7be0944f8cbf, type: 3}
+  m_Name: GRE_Shoot
+  m_EditorClassIdentifier: 
+  animName: Shoot
+  animType: 1
+  animMode: 0
+  speed: 1
+  frameList:
+  - sprites:
+    - {fileID: 21300000, guid: bbb28aac8c0209f4b95780b94c01c0a7, type: 3}
+    - {fileID: 21300000, guid: a3ab52aa7602fec4bacc06d00b7e8223, type: 3}
+    - {fileID: 21300000, guid: f3164cdf0035cd04a820260e41ed18ad, type: 3}
+    - {fileID: 21300000, guid: d1d77a86039c0d5468f9f39b1291d77a, type: 3}
+    - {fileID: 21300000, guid: 0de4248c9b43ea04aa857ddcccfaf9a4, type: 3}
+    - {fileID: 21300000, guid: 4b9c664fe097aeb4db250af8e02d15f3, type: 3}
+    - {fileID: 21300000, guid: 82d8c85f24615e64b96279006f63dcf6, type: 3}
+    - {fileID: 21300000, guid: 3d8416e4c0675f246bd20be37986b025, type: 3}

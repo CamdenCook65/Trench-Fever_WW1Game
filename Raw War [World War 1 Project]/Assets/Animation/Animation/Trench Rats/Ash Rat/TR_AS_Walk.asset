@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a0cf37e99fcb584dbdf7be0944f8cbf, type: 3}
+  m_Name: TR_AS_Walk
+  m_EditorClassIdentifier: 
+  animName: Walking
+  animType: 1
+  animMode: 1
+  speed: 8
+  frameList:
+  - sprites:
+    - {fileID: 21300000, guid: c9439e3cc5666d2498c41d8f1cac6043, type: 3}
+    - {fileID: 21300000, guid: 365d98c1b9d06314b9860aeff101c9bf, type: 3}
+    - {fileID: 21300000, guid: a57e3d2b91439bd418c969bc9fb90589, type: 3}
+    - {fileID: 21300000, guid: 852698f4cca8b9d4c8bec429e2efdffc, type: 3}
+    - {fileID: 21300000, guid: bf3063b03474fa44ab109526454ca6c9, type: 3}
+    - {fileID: 21300000, guid: 1b2dcb6286cfaad42bd228e6ddaff222, type: 3}
+    - {fileID: 21300000, guid: 2c3397e2c003da4459b77549f90c7791, type: 3}
+    - {fileID: 21300000, guid: 1a6ee43c7a8682c46aff70ae37fe6f05, type: 3}
+  - sprites:
+    - {fileID: 21300000, guid: 035dff03cb487ef47b717c768d6d3d4f, type: 3}
+    - {fileID: 21300000, guid: ed1bcd547321ee5489022c9254827ecf, type: 3}
+    - {fileID: 21300000, guid: a9e28ef2db29c3b41b03f8ea0e15f20d, type: 3}
+    - {fileID: 21300000, guid: 24dd52ed049526a4e87e7650279099c1, type: 3}
+    - {fileID: 21300000, guid: 66198fbdacd959d41a48f9e097dd73aa, type: 3}
+    - {fileID: 21300000, guid: a1362e259de372545a2fdeef887f7cd6, type: 3}
+    - {fileID: 21300000, guid: 3807f7375617464498ce645bbdaa912e, type: 3}
+    - {fileID: 21300000, guid: 6b2f578e6524d604d8247c6a3ca06a5d, type: 3}

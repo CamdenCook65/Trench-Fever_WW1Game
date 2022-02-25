@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a0cf37e99fcb584dbdf7be0944f8cbf, type: 3}
+  m_Name: TR_WH_Shoot
+  m_EditorClassIdentifier: 
+  animName: Shoot
+  animType: 1
+  animMode: 1
+  speed: 2
+  frameList:
+  - sprites:
+    - {fileID: 21300000, guid: 8ebfa2566ab744542960b83275cb9b2f, type: 3}
+    - {fileID: 21300000, guid: 435b5854a82e4184982918739b12025a, type: 3}
+    - {fileID: 21300000, guid: 580742748a179c644a894fa7ec907c9f, type: 3}
+    - {fileID: 21300000, guid: c64d2a53ea2f0264bb0874e7325ba9ab, type: 3}
+    - {fileID: 21300000, guid: 8183bf58e15043d429876508008bdd29, type: 3}
+    - {fileID: 21300000, guid: b8c1afb19306c4742b921f1f93aa4774, type: 3}
+    - {fileID: 21300000, guid: 61cf2fe9ff2044d429adfacbddb702b9, type: 3}
+    - {fileID: 21300000, guid: 6cf71cabd7c2e0640ada08878ac0cba0, type: 3}
+  - sprites:
+    - {fileID: 21300000, guid: effff5d2090fe604ab9b1943d3bc30e5, type: 3}
+    - {fileID: 21300000, guid: f711acc747c2dc7499a032b442bc5df9, type: 3}
+    - {fileID: 21300000, guid: 1dd27e1e1cd28ab489b6d2f48b2faa98, type: 3}
+    - {fileID: 21300000, guid: 3f33cc2aac1afb548b0aea6b31ccba5c, type: 3}
+    - {fileID: 21300000, guid: 60c45a7170199cd418089cec50ed7b5e, type: 3}
+    - {fileID: 21300000, guid: 01b0f5019a639b044be4a74a11f8c5bf, type: 3}
+    - {fileID: 21300000, guid: 718010caa22911a4ca959215d413f46e, type: 3}
+    - {fileID: 21300000, guid: e8e28418a1cfc1e4f8858c7f00ec103b, type: 3}
