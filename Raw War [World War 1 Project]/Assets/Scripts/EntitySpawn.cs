@@ -193,7 +193,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             IFN_Value = Random.Range(0, IFN_Interval);
-            if (IFN_Value <= 1 && visSpawner.visible == true)
+            if (IFN_Value <= 1 && visSpawner.visible == false)
             {
                 Infantryman();
                 AddEnemySoldier();
@@ -206,7 +206,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             OFF_Value = Random.Range(0, OFF_Interval);
-            if (OFF_Value <= 1 && visSpawner.visible == true)
+            if (OFF_Value <= 1 && visSpawner.visible == false)
             {
                 Officer();
                 AddEnemySoldier();
@@ -219,7 +219,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             STR_Value = Random.Range(0, STR_Interval);
-            if (STR_Value <= 1 && visSpawner.visible == true)
+            if (STR_Value <= 1 && visSpawner.visible == false)
             {
                 Stormtrooper();
                 AddEnemySoldier();
@@ -232,7 +232,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             GRE_Value = Random.Range(0, GRE_Interval);
-            if (GRE_Value <= 1 && visSpawner.visible == true)
+            if (GRE_Value <= 1 && visSpawner.visible == false)
             {
                 Grenadier();
                 AddEnemySoldier();
@@ -245,7 +245,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             RCK_Value = Random.Range(0, RCK_Interval);
-            if (RCK_Value <= 1 && visSpawner.visible == true)
+            if (RCK_Value <= 1 && visSpawner.visible == false)
             {
                 Rocketeer();
                 AddEnemySoldier();
@@ -258,7 +258,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             FLM_Value = Random.Range(0, FLM_Interval);
-            if (FLM_Value <= 1 && visSpawner.visible == true)
+            if (FLM_Value <= 1 && visSpawner.visible == false)
             {
                 Flametrooper();
                 AddEnemySoldier();
@@ -276,7 +276,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             BR_TR_Value = Random.Range(0, BR_TR_Interval);
-            if (BR_TR_Value <= 1 && visSpawner.visible == true)
+            if (BR_TR_Value <= 1 && visSpawner.visible == false)
             {
                 BrownRat();
                 AddEnemyTrenchRat();
@@ -289,7 +289,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             CN_TR_Value = Random.Range(0, CN_TR_Interval);
-            if (CN_TR_Value <= 1 && visSpawner.visible == true)
+            if (CN_TR_Value <= 1 && visSpawner.visible == false)
             {
                 CinnamonRat();
                 AddEnemyTrenchRat();
@@ -302,7 +302,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             CH_TR_Value = Random.Range(0, CH_TR_Interval);
-            if (CH_TR_Value <= 1 && visSpawner.visible == true)
+            if (CH_TR_Value <= 1 && visSpawner.visible == false)
             {
                 ChocolateRat();
                 AddEnemyTrenchRat();
@@ -315,7 +315,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             AH_TR_Value = Random.Range(0, AH_TR_Interval);
-            if (AH_TR_Value <= 1 && visSpawner.visible == true)
+            if (AH_TR_Value <= 1 && visSpawner.visible == false)
             {
                 AshRat();
                 AddEnemyTrenchRat();
@@ -328,7 +328,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             GR_TR_Value = Random.Range(0, GR_TR_Interval);
-            if (GR_TR_Value <= 1 && visSpawner.visible == true)
+            if (GR_TR_Value <= 1 && visSpawner.visible == false)
             {
                 GreyRat();
                 AddEnemyTrenchRat();
@@ -341,7 +341,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             BK_TR_Value = Random.Range(0, BK_TR_Interval);
-            if (BK_TR_Value <= 1 && visSpawner.visible == true)
+            if (BK_TR_Value <= 1 && visSpawner.visible == false)
             {
                 BlackRat();
                 AddEnemyTrenchRat();
@@ -354,7 +354,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             WH_TR_Value = Random.Range(0, WH_TR_Interval);
-            if (WH_TR_Value <= 1 && visSpawner.visible == true)
+            if (WH_TR_Value <= 1 && visSpawner.visible == false)
             {
                 WhiteRat();
                 AddEnemyTrenchRat();
@@ -367,7 +367,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             RS_TR_Value = Random.Range(0, RS_TR_Interval);
-            if (RS_TR_Value <= 1 && visSpawner.visible == true)
+            if (RS_TR_Value <= 1 && visSpawner.visible == false)
             {
                 RustyRat();
                 AddEnemyTrenchRat();
@@ -380,7 +380,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             BL_TR_Value = Random.Range(0, BL_TR_Interval);
-            if (BL_TR_Value <= 1 && visSpawner.visible == true)
+            if (BL_TR_Value <= 1 && visSpawner.visible == false)
             {
                 BlondeRat();
                 AddEnemyTrenchRat();
@@ -393,7 +393,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             SK_TR_Value = Random.Range(0, SK_TR_Interval);
-            if (SK_TR_Value <= 1 && visSpawner.visible == true)
+            if (SK_TR_Value <= 1 && visSpawner.visible == false)
             {
                 SickRat();
                 AddEnemyTrenchRat();
@@ -406,7 +406,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             NK_TR_Value = Random.Range(0, NK_TR_Interval);
-            if (NK_TR_Value <= 1 && visSpawner.visible == true)
+            if (NK_TR_Value <= 1 && visSpawner.visible == false)
             {
                 NakedRat();
                 AddEnemyTrenchRat();
@@ -419,7 +419,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             AL_TR_Value = Random.Range(0, AL_TR_Interval);
-            if (AL_TR_Value <= 1 && visSpawner.visible == true)
+            if (AL_TR_Value <= 1 && visSpawner.visible == false)
             {
                 AlbinoRat();
                 AddEnemyTrenchRat();
@@ -432,7 +432,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             ML_TR_Value = Random.Range(0, ML_TR_Interval);
-            if (ML_TR_Value <= 1 && visSpawner.visible == true)
+            if (ML_TR_Value <= 1 && visSpawner.visible == false)
             {
                 visSpawner = random.GetComponent<Visibility>();
                 MelanisticRat();
@@ -446,7 +446,7 @@ public class EntitySpawn : MonoBehaviour
             visSpawner = random.GetComponent<Visibility>();
 
             GL_TR_Value = Random.Range(0, GL_TR_Interval);
-            if (GL_TR_Value <= 1 && visSpawner.visible == true)
+            if (GL_TR_Value <= 1 && visSpawner.visible == false)
             {
                 visSpawner = random.GetComponent<Visibility>();
                 GoldenDemise();
