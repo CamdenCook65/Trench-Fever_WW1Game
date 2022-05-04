@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 780f8411e7dc4a04e8c0faf7ee206e7f,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -1433,10 +1434,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8bc863c55d224f4daf8efae21c7e035, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MainMenuUI: {fileID: 1208334121}
-  LevelsUI: {fileID: 80790242}
-  EncyclopediaUI: {fileID: 441547115}
-  CreditsUI: {fileID: 847273348}
 --- !u!1 &1208334121
 GameObject:
   m_ObjectHideFlags: 0

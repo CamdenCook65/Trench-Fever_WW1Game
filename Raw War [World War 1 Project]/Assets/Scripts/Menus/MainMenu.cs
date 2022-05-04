@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject MainMenuUI;
-    public GameObject LevelsUI;
-    public GameObject EncyclopediaUI;
-    public GameObject CreditsUI;
+    //public GameObject MainMenuUI;
+    //public GameObject LevelsUI;
+    //public GameObject EncyclopediaUI;
+    //public GameObject CreditsUI;
 
 
     public void NewGame()
@@ -18,35 +18,22 @@ public class MainMenu : MonoBehaviour
 
     public void LoadGame()
     {
-        MainMenuUI.SetActive(false);
-        LevelsUI.SetActive(true);
-        EncyclopediaUI.SetActive(false);
-        CreditsUI.SetActive(false);
-
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 30);
     }
 
     public void Encyclopedia()
     {
-        MainMenuUI.SetActive(false);
-        LevelsUI.SetActive(false);
-        EncyclopediaUI.SetActive(true);
-        CreditsUI.SetActive(false);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 31);
     }
 
     public void ReturntoMain()
     {
-        MainMenuUI.SetActive(true);
-        LevelsUI.SetActive(false);
-        EncyclopediaUI.SetActive(false);
-        CreditsUI.SetActive(false);
+        SceneManager.LoadScene(0);
     }
 
     public void Credits()
     {
-        MainMenuUI.SetActive(false);
-        LevelsUI.SetActive(false);
-        EncyclopediaUI.SetActive(false);
-        CreditsUI.SetActive(true);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 32);
     }
 
     public void QuitGame()
