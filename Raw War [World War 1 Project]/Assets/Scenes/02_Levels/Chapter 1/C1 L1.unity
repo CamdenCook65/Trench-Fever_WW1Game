@@ -13669,6 +13669,11 @@ PrefabInstance:
       propertyPath: reference
       value: 
       objectReference: {fileID: 403627996}
+    - target: {fileID: 8598322532208166159, guid: 2572b47405a28be488242351a0db57e6,
+        type: 3}
+      propertyPath: reloadAutomatically
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8598322532336805296, guid: 2572b47405a28be488242351a0db57e6,
         type: 3}
       propertyPath: m_Volume
@@ -13819,6 +13824,11 @@ PrefabInstance:
       propertyPath: reference
       value: 
       objectReference: {fileID: 1288639840}
+    - target: {fileID: 8598322534023348664, guid: 2572b47405a28be488242351a0db57e6,
+        type: 3}
+      propertyPath: reloadAutomatically
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8598322534156656715, guid: 2572b47405a28be488242351a0db57e6,
         type: 3}
       propertyPath: weapon
