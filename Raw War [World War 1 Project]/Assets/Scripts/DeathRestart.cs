@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class DeathRestart : MonoBehaviour
 {
+    public bool Finale = false;
+
     void Start()
     {
         StartCoroutine("Coroutine");
@@ -14,6 +16,14 @@ public class DeathRestart : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (Finale == false)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
+        if (Finale == true)
+        {
+            SceneManager.LoadScene(27);
+        }
     }
 }
