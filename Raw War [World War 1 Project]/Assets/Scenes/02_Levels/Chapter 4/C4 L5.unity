@@ -9351,6 +9351,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6298651950165139726, guid: 2701e74eb0712134a992277476c8c56f,
+        type: 3}
+      propertyPath: clock
+      value: 
+      objectReference: {fileID: 1630596602}
+    - target: {fileID: 6298651950165139726, guid: 2701e74eb0712134a992277476c8c56f,
+        type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1375345602}
+    - target: {fileID: 6298651950165139726, guid: 2701e74eb0712134a992277476c8c56f,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1364477215}
+    - target: {fileID: 6298651950165139726, guid: 2701e74eb0712134a992277476c8c56f,
+        type: 3}
+      propertyPath: winEvent
+      value: 
+      objectReference: {fileID: 1242003951}
+    - target: {fileID: 6298651950165139726, guid: 2701e74eb0712134a992277476c8c56f,
+        type: 3}
+      propertyPath: winScreen
+      value: 
+      objectReference: {fileID: 795289779}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2701e74eb0712134a992277476c8c56f, type: 3}
 --- !u!4 &1347263504 stripped
