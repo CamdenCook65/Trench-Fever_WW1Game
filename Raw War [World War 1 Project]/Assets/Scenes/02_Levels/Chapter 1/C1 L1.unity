@@ -8348,7 +8348,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d17a19ae1d6253348981874a00836cc1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9358,7 +9358,7 @@ MonoBehaviour:
   random: {fileID: 0}
   index: 0
   visSpawner: {fileID: 0}
-  IFN_Active: 1
+  IFN_Active: 0
   IFN_Enemy: {fileID: 3662662876934424728, guid: 62b5122eddd88024fb4ea79984764685,
     type: 3}
   IFN_Interval: 5
@@ -13743,22 +13743,22 @@ PrefabInstance:
     - target: {fileID: 8598322532336805303, guid: 2572b47405a28be488242351a0db57e6,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8598322532336805303, guid: 2572b47405a28be488242351a0db57e6,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8598322532336805303, guid: 2572b47405a28be488242351a0db57e6,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8598322532336805303, guid: 2572b47405a28be488242351a0db57e6,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8598322532336805303, guid: 2572b47405a28be488242351a0db57e6,
         type: 3}
@@ -13768,7 +13768,7 @@ PrefabInstance:
     - target: {fileID: 8598322532336805303, guid: 2572b47405a28be488242351a0db57e6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 8598322532336805303, guid: 2572b47405a28be488242351a0db57e6,
         type: 3}
