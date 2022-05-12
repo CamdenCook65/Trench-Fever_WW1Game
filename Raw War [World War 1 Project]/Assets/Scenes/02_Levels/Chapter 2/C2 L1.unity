@@ -9311,29 +9311,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16d195dbd2cc757459c0db2911759caf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SoldierCapacity: 1
+  SoldierCapacity: 5
   TrenchRatCapacity: 5
   SoldierAmount: 0
   TrenchRatAmount: 0
   spawns:
-  - {fileID: 486973955}
-  - {fileID: 235365478}
-  - {fileID: 17855519}
-  - {fileID: 5554125}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   random: {fileID: 0}
   index: 0
   visSpawner: {fileID: 0}
-  IFN_Active: 0
+  IFN_Active: 1
   IFN_Enemy: {fileID: 3662662876934424728, guid: 62b5122eddd88024fb4ea79984764685,
     type: 3}
-  IFN_Interval: 5
+  IFN_Interval: 4
   IFN_Value: 0
-  OFF_Active: 0
+  OFF_Active: 1
   OFF_Enemy: {fileID: 1026259588675203339, guid: 3f2a3db151fdfc448b7b5aedb8bea0db,
     type: 3}
   OFF_Interval: 5
   OFF_Value: 0
-  STR_Active: 0
+  STR_Active: 1
   STR_Enemy: {fileID: 337001786206191723, guid: 5d242a5f6c47d3d4096713e5db0ebf9b,
     type: 3}
   STR_Interval: 5
@@ -9353,72 +9359,72 @@ MonoBehaviour:
     type: 3}
   FLM_Interval: 5
   FLM_Value: 0
-  BR_TR_Active: 0
+  BR_TR_Active: 1
   BR_TR_Enemy: {fileID: 2399891811462073848, guid: 3afc835788e909d42a8d64e84954bf8d,
     type: 3}
   BR_TR_Interval: 10
   BR_TR_Value: 0
-  CN_TR_Active: 0
+  CN_TR_Active: 1
   CN_TR_Enemy: {fileID: 2959460096119918966, guid: 14fabad674a4da344a13d48f049ba625,
     type: 3}
-  CN_TR_Interval: 10
+  CN_TR_Interval: 15
   CN_TR_Value: 0
-  CH_TR_Active: 0
+  CH_TR_Active: 1
   CH_TR_Enemy: {fileID: 3049491618003493628, guid: a25389d10bd3d9f4ea4f4ff5b71dfd81,
     type: 3}
-  CH_TR_Interval: 10
+  CH_TR_Interval: 15
   CH_TR_Value: 0
-  AH_TR_Active: 0
+  AH_TR_Active: 1
   AH_TR_Enemy: {fileID: 8345434344285001682, guid: a3aeea5c3e352ee4fa8723174c281b92,
     type: 3}
-  AH_TR_Interval: 10
+  AH_TR_Interval: 20
   AH_TR_Value: 0
-  GR_TR_Active: 0
+  GR_TR_Active: 1
   GR_TR_Enemy: {fileID: 3174979468570059628, guid: 171d3ec55ec9fe3469d9e890aaa3fdb8,
     type: 3}
-  GR_TR_Interval: 10
+  GR_TR_Interval: 20
   GR_TR_Value: 0
-  BK_TR_Active: 0
+  BK_TR_Active: 1
   BK_TR_Enemy: {fileID: 8753397215796711752, guid: 94b930a4269ea2943b1259d193cd2c09,
     type: 3}
-  BK_TR_Interval: 10
+  BK_TR_Interval: 20
   BK_TR_Value: 0
-  WH_TR_Active: 0
+  WH_TR_Active: 1
   WH_TR_Enemy: {fileID: 2333804594719661799, guid: 539b600884bfafc4b96c62215b81f5fd,
     type: 3}
-  WH_TR_Interval: 10
+  WH_TR_Interval: 30
   WH_TR_Value: 0
-  RS_TR_Active: 0
+  RS_TR_Active: 1
   RS_TR_Enemy: {fileID: 9190706442662662581, guid: 54a95c5443e588041999a16ac9dc735b,
     type: 3}
-  RS_TR_Interval: 10
+  RS_TR_Interval: 20
   RS_TR_Value: 0
-  BL_TR_Active: 0
+  BL_TR_Active: 1
   BL_TR_Enemy: {fileID: 4341446195887913510, guid: ff9c14b4e19b2b64b92f55ec8c8ad73d,
     type: 3}
-  BL_TR_Interval: 10
+  BL_TR_Interval: 30
   BL_TR_Value: 0
-  SK_TR_Active: 0
+  SK_TR_Active: 1
   SK_TRN_Enemy: {fileID: 645196438496454811, guid: 48132382a272a8a4e84ed9961136dae1,
     type: 3}
-  SK_TR_Interval: 30
+  SK_TR_Interval: 80
   SK_TR_Value: 0
-  NK_TR_Active: 0
+  NK_TR_Active: 1
   NK_TR_Enemy: {fileID: 5276936385456610341, guid: 7e969280420084648be30eca0d798be5,
     type: 3}
-  NK_TR_Interval: 50
+  NK_TR_Interval: 80
   NK_TR_Value: 0
-  AL_TR_Active: 0
+  AL_TR_Active: 1
   AL_TR_Enemy: {fileID: 4714934457256584467, guid: 52d82c389663db94d9c52e640b4b2502,
     type: 3}
-  AL_TR_Interval: 300
+  AL_TR_Interval: 500
   AL_TR_Value: 0
-  ML_TR_Active: 0
+  ML_TR_Active: 1
   ML_TR_Enemy: {fileID: 3948182097347357877, guid: bc06aa0968ff641418bbe369416e2658,
     type: 3}
-  ML_TR_Interval: 300
+  ML_TR_Interval: 500
   ML_TR_Value: 0
-  GL_TR_Active: 0
+  GL_TR_Active: 1
   GL_TR_Enemy: {fileID: 5267715143421255346, guid: dfb0af6cfbf692b4481285d9e5291ff4,
     type: 3}
   GL_TR_Interval: 1000000
