@@ -5025,6 +5025,7 @@ MonoBehaviour:
   - {fileID: 1454977267}
   random: {fileID: 0}
   index: 0
+  visSpawner: {fileID: 0}
   IFN_Active: 1
   IFN_Enemy: {fileID: 3662662876934424728, guid: 62b5122eddd88024fb4ea79984764685,
     type: 3}
@@ -6402,6 +6403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e54d3c5fddfd5f4a87ae27ea0642e20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Finale: 0
 --- !u!1 &908686908 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4566107214043182970, guid: fa2085ddce1690844b25872f9a594716,
@@ -14163,7 +14165,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2035417683}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -500, y: 0, z: -500}
+  m_LocalPosition: {x: -500, y: -8.15, z: -500}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 408083065}
@@ -15760,6 +15762,11 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 18273355}
+    - target: {fileID: 3002804252238931103, guid: a68c6363815a80b438a83ff53a065e16,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a68c6363815a80b438a83ff53a065e16, type: 3}
 --- !u!1001 &3975258051810869666
