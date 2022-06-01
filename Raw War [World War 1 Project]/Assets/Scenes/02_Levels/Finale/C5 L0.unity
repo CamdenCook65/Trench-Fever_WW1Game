@@ -4017,7 +4017,7 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 3
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -6485,8 +6485,8 @@ Transform:
   - {fileID: 1006123090}
   - {fileID: 439121082}
   - {fileID: 1677659084}
-  m_Father: {fileID: 1204804238}
-  m_RootOrder: 1
+  m_Father: {fileID: 1599666607}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &664842411
 GameObject:
@@ -12084,7 +12084,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1586935031}
-  - {fileID: 651652097}
   m_Father: {fileID: 1599666607}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16945,6 +16944,7 @@ Transform:
   - {fileID: 1915152754}
   - {fileID: 1204804238}
   - {fileID: 48328407}
+  - {fileID: 651652097}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
