@@ -32,7 +32,9 @@ public class Health : MonoBehaviour
 	public GameObject burnDeath;
 
 	public bool isPlayer = false;				// Whether or not this health is the player
-	public GameObject deathCam;					// The camera to activate when the player dies
+	public GameObject deathCam;                 // The camera to activate when the player dies
+
+	public GameObject music;
 
 	public bool dead = false;                  // Used to make sure the Die() function isn't called twice
 
@@ -127,6 +129,9 @@ public class Health : MonoBehaviour
 			deathCam.SetActive(true);
 		}
 
+		GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
+		GameObject.Destroy(music);
+
 		// Remove this GameObject from the scene
 		Destroy(gameObject);
 	}
@@ -142,6 +147,9 @@ public class Health : MonoBehaviour
 			deathCam.SetActive(true);
 		}
 
+		GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
+		GameObject.Destroy(music);
+
 		Destroy(gameObject);
 	}
 
@@ -155,6 +163,9 @@ public class Health : MonoBehaviour
 		{
 			deathCam.SetActive(true);
 		}
+
+		GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
+		GameObject.Destroy(music);
 
 		Destroy(gameObject);
 	}
@@ -170,6 +181,9 @@ public class Health : MonoBehaviour
 			deathCam.SetActive(true);
 		}
 
+		GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
+		GameObject.Destroy(music);
+
 		Destroy(gameObject);
 	}
 
@@ -183,6 +197,9 @@ public class Health : MonoBehaviour
 		{
 			deathCam.SetActive(true);
 		}
+
+		GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
+		GameObject.Destroy(music);
 
 		Destroy(gameObject);
 	}

@@ -14,6 +14,8 @@ public class WinCondition : MonoBehaviour
     public bool WontheGame = false;
     public GameObject[] enemies;
     public GameObject enemySpawner;
+    public GameObject music;
+
 
     private void Start()
     {
@@ -42,6 +44,9 @@ public class WinCondition : MonoBehaviour
         player.SetActive(false);
         winEvent.SetActive(true);
         winScreen.SetActive(true);
+
+        GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
+        GameObject.Destroy(music);
 
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
