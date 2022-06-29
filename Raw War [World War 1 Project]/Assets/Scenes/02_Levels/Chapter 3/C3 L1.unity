@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0, g: 0, b: 0, a: 1}
+  m_FogColor: {r: 0.073777735, g: 0.07195622, b: 0.103773594, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.025
   m_LinearFogStart: 0
@@ -793,7 +793,7 @@ GameObject:
   - component: {fileID: 98756172}
   m_Layer: 0
   m_Name: ArtilleryManager
-  m_TagString: Untagged
+  m_TagString: ArtilleryManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6930,7 +6930,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.055620678, b: 0.6415094, a: 1}
   m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
@@ -15344,7 +15344,7 @@ GameObject:
   - component: {fileID: 2014878881}
   m_Layer: 0
   m_Name: BombManager
-  m_TagString: Untagged
+  m_TagString: BombManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

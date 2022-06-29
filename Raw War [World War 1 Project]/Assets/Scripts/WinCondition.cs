@@ -15,6 +15,8 @@ public class WinCondition : MonoBehaviour
     public GameObject[] enemies;
     public GameObject enemySpawner;
     public GameObject music;
+    public GameObject artilleryManager;
+    public GameObject bombManager;
 
 
     private void Start()
@@ -47,6 +49,12 @@ public class WinCondition : MonoBehaviour
 
         GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
         GameObject.Destroy(music);
+
+        GameObject bombManager = GameObject.FindGameObjectWithTag("BombManager");
+        GameObject.Destroy(bombManager);
+
+        GameObject artilleryManager = GameObject.FindGameObjectWithTag("ArtilleryManager");
+        GameObject.Destroy(artilleryManager);
 
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
