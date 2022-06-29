@@ -14,6 +14,21 @@ public class Exposition : MonoBehaviour
         
     }
 
+    private void Update()
+    {
+        if (Input.anyKey)
+        {
+            if (ending == true)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 27);
+            }
+            else
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+        }
+    }
+
     IEnumerator Coroutine()
     {
         yield return new WaitForSeconds(timer);
