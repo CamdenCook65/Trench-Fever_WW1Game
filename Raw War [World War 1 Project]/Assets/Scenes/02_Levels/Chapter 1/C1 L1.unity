@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0, g: 0, b: 0, a: 1}
+  m_FogColor: {r: 0.23584908, g: 0.21916164, b: 0.21916164, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.025
   m_LinearFogStart: 0
@@ -12540,6 +12540,11 @@ PrefabInstance:
       propertyPath: volumeTrigger
       value: 
       objectReference: {fileID: 1576998033}
+    - target: {fileID: 8598322532165748003, guid: 2572b47405a28be488242351a0db57e6,
+        type: 3}
+      propertyPath: m_ClearFlags
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8598322532208166159, guid: 2572b47405a28be488242351a0db57e6,
         type: 3}
       propertyPath: reference
