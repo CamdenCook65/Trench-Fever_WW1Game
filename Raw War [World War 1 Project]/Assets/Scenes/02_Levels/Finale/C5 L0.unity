@@ -13525,12 +13525,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawner: {fileID: 1915152757}
-  bomb: 1
+  bomb: 0
   bombPrefab: {fileID: 5181083500107693974, guid: 59102d33dcec77c4a852bee4951fe6a8,
     type: 3}
   Bomb_Value: 10
   BMB_Interval: 0
-  flechette: 1
+  flechette: 0
   flechettePrefab: {fileID: 4842354969711877400, guid: 6fa4d210185c98e4abdad73aeb0e365c,
     type: 3}
   Flechette_Value: 15
@@ -15801,17 +15801,17 @@ MonoBehaviour:
   - {fileID: 1232609469}
   random: {fileID: 0}
   index: 0
-  grenade: 1
+  grenade: 0
   grenadePrefab: {fileID: 2590217129753186257, guid: 2010476d57dd79a48a0a6460a2ec57da,
     type: 3}
   Grenade_Value: 10
   GRE_Interval: 0
-  mortar: 1
+  mortar: 0
   mortarPrefab: {fileID: 5644218706178120769, guid: 356386aabe0679d43af4c8660764fae5,
     type: 3}
   Mortar_Value: 12
   MOR_Interval: 0
-  artillery: 1
+  artillery: 0
   artilleryPrefab: {fileID: 4685068613847171870, guid: 35e1e01dc24c196459293e409fddf3ea,
     type: 3}
   Artillery_Value: 15

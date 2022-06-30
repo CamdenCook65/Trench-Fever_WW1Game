@@ -7841,7 +7841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawner: {fileID: 2123754259}
-  bomb: 1
+  bomb: 0
   bombPrefab: {fileID: 5181083500107693974, guid: 59102d33dcec77c4a852bee4951fe6a8,
     type: 3}
   Bomb_Value: 6
@@ -29704,7 +29704,7 @@ MonoBehaviour:
     type: 3}
   Mortar_Value: 25
   MOR_Interval: 0
-  artillery: 1
+  artillery: 0
   artilleryPrefab: {fileID: 4685068613847171870, guid: 35e1e01dc24c196459293e409fddf3ea,
     type: 3}
   Artillery_Value: 6
