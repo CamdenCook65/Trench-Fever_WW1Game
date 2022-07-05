@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class DeathRestart : MonoBehaviour
 {
     public bool Finale = false;
+    public int time = 3;
 
     void Start()
     {
@@ -14,7 +15,7 @@ public class DeathRestart : MonoBehaviour
 
     IEnumerator Coroutine()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(time);
 
         if (Finale == false)
         {

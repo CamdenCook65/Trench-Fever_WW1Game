@@ -11,7 +11,9 @@ using System.Collections;
 
 public class Health : MonoBehaviour
 {
-	public bool canDie = true;					// Whether or not this health can die
+	public bool canDie = true;                  // Whether or not this health can die
+
+	public bool isFinale = false;
 	
 	public int startingHealth = 1;				// The amount of health to start with
 	public int maxHealth = 1;					// The maximum amount of health
@@ -129,8 +131,11 @@ public class Health : MonoBehaviour
 			deathCam.SetActive(true);
 		}
 
-		GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
-		GameObject.Destroy(music);
+		if(isFinale == false)
+        {
+			GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
+			GameObject.Destroy(music);
+		}
 
 		// Remove this GameObject from the scene
 		Destroy(gameObject);
@@ -147,8 +152,11 @@ public class Health : MonoBehaviour
 			deathCam.SetActive(true);
 		}
 
-		GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
-		GameObject.Destroy(music);
+		if (isFinale == false)
+		{
+			GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
+			GameObject.Destroy(music);
+		}
 
 		Destroy(gameObject);
 	}
@@ -164,8 +172,11 @@ public class Health : MonoBehaviour
 			deathCam.SetActive(true);
 		}
 
-		GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
-		GameObject.Destroy(music);
+		if (isFinale == false)
+		{
+			GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
+			GameObject.Destroy(music);
+		}
 
 		Destroy(gameObject);
 	}
@@ -181,8 +192,11 @@ public class Health : MonoBehaviour
 			deathCam.SetActive(true);
 		}
 
-		GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
-		GameObject.Destroy(music);
+		if (isFinale == false)
+		{
+			GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
+			GameObject.Destroy(music);
+		}
 
 		Destroy(gameObject);
 	}
@@ -198,8 +212,11 @@ public class Health : MonoBehaviour
 			deathCam.SetActive(true);
 		}
 
-		GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
-		GameObject.Destroy(music);
+		if (isFinale == false)
+		{
+			GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
+			GameObject.Destroy(music);
+		}
 
 		Destroy(gameObject);
 	}

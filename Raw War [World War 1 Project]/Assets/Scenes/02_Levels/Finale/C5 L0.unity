@@ -16979,6 +16979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Finale: 1
+  time: 8
 --- !u!65 &1586935033
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20248,6 +20249,11 @@ PrefabInstance:
       propertyPath: deathCam
       value: 
       objectReference: {fileID: 1586935030}
+    - target: {fileID: 8598322532336805302, guid: 2572b47405a28be488242351a0db57e6,
+        type: 3}
+      propertyPath: isFinale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8598322532336805303, guid: 2572b47405a28be488242351a0db57e6,
         type: 3}
       propertyPath: m_RootOrder
