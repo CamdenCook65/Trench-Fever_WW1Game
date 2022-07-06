@@ -275,6 +275,8 @@ public class FirstPersonCharacter : MonoBehaviour
 			{
 				yv += jumpPower;
 				grounded = false;
+				canJump = false;
+				StartCoroutine("WaitToJump");
 			}
 		}
 		
@@ -339,5 +341,12 @@ public class FirstPersonCharacter : MonoBehaviour
 			return ((RaycastHit)x).distance.CompareTo(((RaycastHit)y).distance);
 		}	
 	}
+
+	IEnumerator WaitToJump()
+    {
+		yield return new WaitForSeconds(0.5f);
+
+		canJump = true;
+    }
 	
 }
