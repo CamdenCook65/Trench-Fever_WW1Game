@@ -4635,7 +4635,7 @@ GameObject:
   - component: {fileID: 19900002}
   - component: {fileID: 11400000}
   m_Layer: 0
-  m_Name: Dirt_Impact
+  m_Name: Shotgun_Impact
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13962,7 +13962,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.88335323, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.06914881, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -14008,7 +14008,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 7.8e-44, y: 0, z: 9.557e-42, w: 1.35e-43}
+  m_BoundingSphereOverride: {x: NaN, y: 8.4e-44, z: 10, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
