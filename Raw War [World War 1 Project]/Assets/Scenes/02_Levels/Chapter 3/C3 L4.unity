@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.073777735, g: 0.07195622, b: 0.103773594, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.025
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 603a73c58a5307c4eb3d679b1d27cc67,
+  m_LightingDataAsset: {fileID: 112000000, guid: 04e758b9f81478848b11a682b8145237,
     type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
