@@ -2480,12 +2480,12 @@ PrefabInstance:
     - target: {fileID: 494715384982114951, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9752368
+      value: 0.96625024
       objectReference: {fileID: 0}
     - target: {fileID: 494715384982114951, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.22116345
+      value: -0.2576053
       objectReference: {fileID: 0}
     - target: {fileID: 494715385329789906, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
@@ -10870,12 +10870,12 @@ PrefabInstance:
     - target: {fileID: 494715384982114951, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9953583
+      value: 0.7274134
       objectReference: {fileID: 0}
     - target: {fileID: 494715384982114951, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.09623902
+      value: -0.6861995
       objectReference: {fileID: 0}
     - target: {fileID: 494715385329789906, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
@@ -10885,7 +10885,7 @@ PrefabInstance:
     - target: {fileID: 494715385329789906, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.0425854
+      value: -13.46
       objectReference: {fileID: 0}
     - target: {fileID: 494715385329789906, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
@@ -10895,7 +10895,7 @@ PrefabInstance:
     - target: {fileID: 494715385329789906, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 30.955791
+      value: 18.38
       objectReference: {fileID: 0}
     - target: {fileID: 494715385329789906, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
@@ -16332,7 +16332,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

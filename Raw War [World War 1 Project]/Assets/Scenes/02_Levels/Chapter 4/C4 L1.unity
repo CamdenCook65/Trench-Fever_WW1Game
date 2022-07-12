@@ -5914,7 +5914,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -7793,12 +7793,12 @@ PrefabInstance:
     - target: {fileID: 494715384982114951, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.66501
+      value: 0.4664692
       objectReference: {fileID: 0}
     - target: {fileID: 494715384982114951, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7468345
+      value: 0.88453746
       objectReference: {fileID: 0}
     - target: {fileID: 494715385329789906, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
@@ -7818,7 +7818,7 @@ PrefabInstance:
     - target: {fileID: 494715385329789906, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.87
+      value: -16.89
       objectReference: {fileID: 0}
     - target: {fileID: 494715385329789906, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
