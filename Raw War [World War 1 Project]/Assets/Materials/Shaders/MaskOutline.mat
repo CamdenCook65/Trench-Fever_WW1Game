@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: MaskOutline
   m_Shader: {fileID: 4800000, guid: a36b7719ff0465b42ab1407d67672c5f, type: 3}
-  m_ShaderKeywords: BLURISHD_ON BLUR_ON ETC1_EXTERNAL_ALPHA POSTERIZEOUTLINE_ON _BLURHD_ON
-    _POSTERIZEOUTLINE_ON
+  m_ShaderKeywords: BLURISHD_ON BLUR_ON ETC1_EXTERNAL_ALPHA PIXELATE_ON POSTERIZEOUTLINE_ON
+    _BLURHD_ON _POSTERIZEOUTLINE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -226,7 +226,7 @@ Material:
     - _OverlayGlow: 1
     - _Parallax: 0.02
     - _PinchUvAmount: 0
-    - _PixelateSize: 75
+    - _PixelateSize: 250
     - _PosterizeGamma: 9.95
     - _PosterizeNumColors: 0
     - _PosterizeOutline: 1

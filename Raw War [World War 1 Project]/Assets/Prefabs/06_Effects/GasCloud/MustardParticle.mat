@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: MustardParticle
   m_Shader: {fileID: 4800000, guid: a36b7719ff0465b42ab1407d67672c5f, type: 3}
-  m_ShaderKeywords: DOODLE_ON FOG_ON _ALPHAPREMULTIPLY_ON _EMISSION
+  m_ShaderKeywords: DOODLE_ON FOG_ON PIXELATE_ON _ALPHAPREMULTIPLY_ON _EMISSION
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -174,7 +174,7 @@ Material:
     - _OverlayBlend: 1
     - _OverlayGlow: 1
     - _PinchUvAmount: 0.35
-    - _PixelateSize: 300
+    - _PixelateSize: 32
     - _PosterizeGamma: 0.75
     - _PosterizeNumColors: 25
     - _PosterizeOutline: 0

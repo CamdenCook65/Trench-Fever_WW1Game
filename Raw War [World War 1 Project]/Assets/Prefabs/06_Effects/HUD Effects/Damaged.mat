@@ -138,7 +138,7 @@ Material:
     - _DstBlend: 0
     - _FadeAmount: -0.1
     - _FadeBurnGlow: 1
-    - _FadeBurnTransition: 0.25
+    - _FadeBurnTransition: 0.01
     - _FadeBurnWidth: 0
     - _FishEyeUvAmount: 0.35
     - _FlickerAlpha: 0
@@ -155,8 +155,8 @@ Material:
     - _Glow: 10
     - _GlowTexUsed: 0
     - _GradBlend: 1
-    - _GradBoostX: 1.2
-    - _GradBoostY: 1.2
+    - _GradBoostX: 0.1
+    - _GradBoostY: 1.73
     - _GradIsRadial: 0
     - _GrassManualAnim: 1
     - _GrassManualToggle: 0

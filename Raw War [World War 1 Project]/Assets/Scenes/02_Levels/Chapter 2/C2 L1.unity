@@ -16088,6 +16088,11 @@ PrefabInstance:
       propertyPath: weapon
       value: 
       objectReference: {fileID: 1988098345}
+    - target: {fileID: 8598322534156656715, guid: 2572b47405a28be488242351a0db57e6,
+        type: 3}
+      propertyPath: startingWeaponIndex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2572b47405a28be488242351a0db57e6, type: 3}
 --- !u!4 &1914153959 stripped
@@ -16420,7 +16425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: a789dc63a54f66d40b40897eaa66c661, type: 2}
   m_Color: {r: 0.3207547, g: 0.2559649, b: 0.17702028, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1

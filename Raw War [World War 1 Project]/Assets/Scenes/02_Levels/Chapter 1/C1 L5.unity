@@ -9693,7 +9693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: a789dc63a54f66d40b40897eaa66c661, type: 2}
   m_Color: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
@@ -55596,6 +55596,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1548032975}
     m_Modifications:
+    - target: {fileID: 494715384982114951, guid: 7b5327526c211d34a82e5740a4659c48,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99750936
+      objectReference: {fileID: 0}
+    - target: {fileID: 494715384982114951, guid: 7b5327526c211d34a82e5740a4659c48,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.07053457
+      objectReference: {fileID: 0}
     - target: {fileID: 494715385329789906, guid: 7b5327526c211d34a82e5740a4659c48,
         type: 3}
       propertyPath: m_RootOrder
