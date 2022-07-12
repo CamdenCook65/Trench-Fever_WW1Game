@@ -131,7 +131,7 @@ public class Health : MonoBehaviour
 			deathCam.SetActive(true);
 		}
 
-		if(isFinale == false)
+		if(isFinale == false && isPlayer == true)
         {
 			GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
 			GameObject.Destroy(music);
@@ -152,7 +152,7 @@ public class Health : MonoBehaviour
 			deathCam.SetActive(true);
 		}
 
-		if (isFinale == false)
+		if (isFinale == false && isPlayer == true)
 		{
 			GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
 			GameObject.Destroy(music);
@@ -172,7 +172,7 @@ public class Health : MonoBehaviour
 			deathCam.SetActive(true);
 		}
 
-		if (isFinale == false)
+		if (isFinale == false && isPlayer == true)
 		{
 			GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
 			GameObject.Destroy(music);
@@ -192,7 +192,7 @@ public class Health : MonoBehaviour
 			deathCam.SetActive(true);
 		}
 
-		if (isFinale == false)
+		if (isFinale == false && isPlayer == true)
 		{
 			GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
 			GameObject.Destroy(music);
@@ -212,7 +212,7 @@ public class Health : MonoBehaviour
 			deathCam.SetActive(true);
 		}
 
-		if (isFinale == false)
+		if (isFinale == false && isPlayer == true)
 		{
 			GameObject music = GameObject.FindGameObjectWithTag("LevelMusic");
 			GameObject.Destroy(music);
