@@ -302,7 +302,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 3, z: 0.5}
+  m_Size: {x: 2.5, y: 3.5, z: 1}
   m_Center: {x: 0, y: 1.5, z: -0.15}
 --- !u!114 &1865188456323499189
 MonoBehaviour:
@@ -321,6 +321,12 @@ MonoBehaviour:
   clock: {fileID: 0}
   winScreen: {fileID: 0}
   button: {fileID: 0}
+  WontheGame: 0
+  enemies: []
+  enemySpawner: {fileID: 0}
+  music: {fileID: 0}
+  artilleryManager: {fileID: 0}
+  bombManager: {fileID: 0}
 --- !u!54 &1865188456323499188
 Rigidbody:
   m_ObjectHideFlags: 0
