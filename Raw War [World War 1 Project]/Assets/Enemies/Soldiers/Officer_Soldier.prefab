@@ -273,8 +273,8 @@ MonoBehaviour:
   scriptWithAttackMethod: {fileID: 1026259589527223403}
   methodName: RangedAttack
   attackBasedOn: 1
-  initialAttackTime: 0.8
-  attackInterval: 1
+  initialAttackTime: 0.4
+  attackInterval: 0.6
   attacksBeforeReload: 1000
   attackCount: 0
   reloadState: {fileID: 1026259588313167010}

@@ -9869,7 +9869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16d195dbd2cc757459c0db2911759caf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SoldierCapacity: 25
+  SoldierCapacity: 50
   TrenchRatCapacity: 30
   SoldierAmount: 0
   TrenchRatAmount: 0
@@ -9892,7 +9892,7 @@ MonoBehaviour:
     type: 3}
   IFN_Interval: 4
   IFN_Value: 0
-  OFF_Active: 0
+  OFF_Active: 1
   OFF_Enemy: {fileID: 1026259588675203339, guid: 3f2a3db151fdfc448b7b5aedb8bea0db,
     type: 3}
   OFF_Interval: 5

@@ -12645,7 +12645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16d195dbd2cc757459c0db2911759caf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SoldierCapacity: 25
+  SoldierCapacity: 50
   TrenchRatCapacity: 30
   SoldierAmount: 0
   TrenchRatAmount: 0
@@ -12681,7 +12681,7 @@ MonoBehaviour:
   GRE_Active: 1
   GRE_Enemy: {fileID: 3843180534923776858, guid: a86c133bb66ec9444863af9ee7c5c8df,
     type: 3}
-  GRE_Interval: 5
+  GRE_Interval: 2
   GRE_Value: 0
   RCK_Active: 0
   RCK_Enemy: {fileID: 7156313939943337713, guid: af26effeff33d4c4999bfa49fdc0d75f,
