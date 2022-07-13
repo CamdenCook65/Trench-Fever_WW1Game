@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2276983295586408187}
   - component: {fileID: 2276983295586408186}
   - component: {fileID: 2276983295586408188}
-  - component: {fileID: 2276983295586408189}
   m_Layer: 0
   m_Name: EndDoor_Shotgun
   m_TagString: Untagged
@@ -47,7 +46,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.5, y: 3.5, z: 1}
+  m_Size: {x: 2.5, y: 3.5, z: 0.5}
   m_Center: {x: 0, y: 1.5, z: -0.15}
 --- !u!114 &2276983295586408188
 MonoBehaviour:
@@ -72,22 +71,6 @@ MonoBehaviour:
   music: {fileID: 0}
   artilleryManager: {fileID: 0}
   bombManager: {fileID: 0}
---- !u!54 &2276983295586408189
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2276983295586408184}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &2276983295713930068
 GameObject:
   m_ObjectHideFlags: 0
