@@ -3886,16 +3886,31 @@ PrefabInstance:
       propertyPath: reference
       value: 
       objectReference: {fileID: 505745330}
+    - target: {fileID: 8598322533335821658, guid: 2572b47405a28be488242351a0db57e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8598322534023348664, guid: 2572b47405a28be488242351a0db57e6,
         type: 3}
       propertyPath: reference
       value: 
       objectReference: {fileID: 7659414}
+    - target: {fileID: 8598322534023348671, guid: 2572b47405a28be488242351a0db57e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8598322534156656715, guid: 2572b47405a28be488242351a0db57e6,
         type: 3}
       propertyPath: weapon
       value: 
       objectReference: {fileID: 1400507213}
+    - target: {fileID: 8598322534156656715, guid: 2572b47405a28be488242351a0db57e6,
+        type: 3}
+      propertyPath: startingWeaponIndex
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2572b47405a28be488242351a0db57e6, type: 3}
 --- !u!4 &515361747 stripped
@@ -10534,12 +10549,12 @@ PrefabInstance:
     - target: {fileID: 494715384982114951, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.95859516
+      value: 0.96699727
       objectReference: {fileID: 0}
     - target: {fileID: 494715384982114951, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.2847726
+      value: 0.2547869
       objectReference: {fileID: 0}
     - target: {fileID: 494715385329789906, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
@@ -14293,12 +14308,12 @@ PrefabInstance:
     - target: {fileID: 494715384982114951, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.97712016
+      value: 0.97988683
       objectReference: {fileID: 0}
     - target: {fileID: 494715384982114951, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.21268807
+      value: 0.19955413
       objectReference: {fileID: 0}
     - target: {fileID: 494715385329789906, guid: 77f73037509ef5640ae103ad56c56b59,
         type: 3}
@@ -34217,7 +34232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &4566107213617554432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41249,7 +41264,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!222 &4566107214219988534
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -50234,7 +50249,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4566107215040490491
 RectTransform:
   m_ObjectHideFlags: 0
@@ -53156,7 +53171,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!222 &4566107215330319258
 CanvasRenderer:
   m_ObjectHideFlags: 0

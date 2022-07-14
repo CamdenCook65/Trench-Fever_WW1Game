@@ -16073,6 +16073,11 @@ PrefabInstance:
       propertyPath: reference
       value: 
       objectReference: {fileID: 1575516201}
+    - target: {fileID: 8598322533334852994, guid: 2572b47405a28be488242351a0db57e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8598322533335821655, guid: 2572b47405a28be488242351a0db57e6,
         type: 3}
       propertyPath: reference
@@ -16083,6 +16088,11 @@ PrefabInstance:
       propertyPath: reference
       value: 
       objectReference: {fileID: 772492715}
+    - target: {fileID: 8598322534023348671, guid: 2572b47405a28be488242351a0db57e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8598322534156656715, guid: 2572b47405a28be488242351a0db57e6,
         type: 3}
       propertyPath: weapon
@@ -16091,7 +16101,7 @@ PrefabInstance:
     - target: {fileID: 8598322534156656715, guid: 2572b47405a28be488242351a0db57e6,
         type: 3}
       propertyPath: startingWeaponIndex
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2572b47405a28be488242351a0db57e6, type: 3}
@@ -36491,7 +36501,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4566107213736235612
 RectTransform:
   m_ObjectHideFlags: 0
@@ -41135,7 +41145,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4566107214143591958
 RectTransform:
   m_ObjectHideFlags: 0
@@ -51322,7 +51332,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4566107215067684243
 RectTransform:
   m_ObjectHideFlags: 0
@@ -53271,7 +53281,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4566107215250844253
 RectTransform:
   m_ObjectHideFlags: 0

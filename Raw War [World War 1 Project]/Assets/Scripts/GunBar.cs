@@ -92,16 +92,16 @@ public class GunBar : MonoBehaviour
         rocketGun_unknown.SetActive(true);
         flamethrower_unknown.SetActive(true);
 
-        club_Check.SetActive(false);
-        pistol_Check.SetActive(true);
+        //club_Check.SetActive(false);
+        //pistol_Check.SetActive(true);
         //revolver_Check.SetActive(false);
         //rifle_Check.SetActive(false);
-        shotgun_Check.SetActive(false);
-        SMG_Check.SetActive(false);
-        LMG_Check.SetActive(false);
-        Launcher_Check.SetActive(false);
-        RocketGun_Check.SetActive(false);
-        flamethrower_Check.SetActive(false);
+        //shotgun_Check.SetActive(false);
+        //SMG_Check.SetActive(false);
+        //LMG_Check.SetActive(false);
+        //Launcher_Check.SetActive(false);
+        //RocketGun_Check.SetActive(false);
+        //flamethrower_Check.SetActive(false);
         
     }
 

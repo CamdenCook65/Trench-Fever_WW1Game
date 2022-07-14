@@ -267,7 +267,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -100}
+  m_AnchoredPosition: {x: 0, y: -118.78}
   m_SizeDelta: {x: 700, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &944462257
@@ -476,7 +476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audiosource: {fileID: 1377841933}
-  waitTime: 15
+  waitTime: 18
 --- !u!1 &1512902310
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,8 +849,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Next to the barracks door, Gabriel spotted a bloddy letter setting on a
-    table next to a dead French Courier armed with a lewis gun and a MP 18.
+  m_Text: Next to the barracks door, Gabriel spotted a bloddy letter sitting on a
+    table next to a dead French Courier armed with a lewis gun and an experimental
+    MP 18.
 --- !u!222 &1737004298
 CanvasRenderer:
   m_ObjectHideFlags: 0
